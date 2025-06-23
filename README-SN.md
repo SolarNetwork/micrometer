@@ -1,5 +1,7 @@
 # SolarNetwork External Publishing
 
+Configure GPG settings, e.g. in ~/.gradle/gradle.properties.
+
 To publish to Maven Central, for example `micrometer-commons`:
 
 ```
