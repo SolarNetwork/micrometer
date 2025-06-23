@@ -59,7 +59,7 @@ release.defaultVersionStrategy = nebula.plugin.release.git.opinion.Strategies.SN
 apply plugin: 'io.github.gradle-nexus.publish-plugin'
 
 allprojects {
-    group = 'io.micrometer'
+    group = 'net.solarnetwork.external'
     ext.'release.stage' = releaseStage ?: 'SNAPSHOT'
 
     afterEvaluate { project -> println "I'm configuring $project.name with version $project.version" }
